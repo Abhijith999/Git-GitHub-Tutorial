@@ -1,0 +1,20 @@
+Git configurations
+git config --global user.name "user name"
+git config --global user.email "user email"
+git config --list
+
+Clone&Status
+cloning repo from remote to local - git clone 'repo http link'
+to check the status of the files - git status
+
+Untracked/Modified/Staged/Unmodified
+untracked - if the new file is created and modified content inside of that file, git still consider it as a untracked file.
+modified - if the content is changed in tracked files then git will consider as a file is modified
+staged - staging modified files by command 'git add' or 'git add.'(staging all modified files)
+unmodified - when we stage the files then file get unmodified.
+
+Add & Commit
+Add - adds new or changed files in your working directory to the git staging area - git add
+Commit - it is the record of change - git commit -m 'some message'
+
+Push command - uploading local repo content to remote repo - git push origin main
